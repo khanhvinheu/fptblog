@@ -45,6 +45,9 @@
            .header {
                display: block;
            }
+           .col-sm-6.item-blog {
+               padding-top: 10px;
+           }
        }
 
        .navbar-inverse .navbar-nav>li>a {
@@ -56,18 +59,18 @@
 
        .navbar-inverse .navbar-nav>.active>a {
            background-color: white;
-           color: orangered;
+           color: #f06e28;
            font-weight: bold;
        }
 
        .navbar-inverse .navbar-nav>.active>a:focus {
            background-color: white;
-           color: orangered;
+           color: #f06e28;
        }
 
        .navbar-inverse .navbar-nav>.active>a:hover {
            background-color: white;
-           color: orangered;
+           color: #f06e28;
            /* font-weight: bold; */
            /* font-size: 16px; */
        }
@@ -86,4 +89,60 @@
            max-width: 100%;
            max-height: 30%;
            height: auto;
+       }
+       /* title */
+
+       .title-blog {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .title-blog h4 {
+           font-size: 30px;
+           /* font-weight: bold; */
+           color: #f06e28;
+       }
+
+       .img-blog-hot {
+           border: 0.5px solid #f7f3f3;
+           padding: 5px;
+           border-radius: 5px;
+       }
+
+       .title-item-blog {
+           font-size: 14px;
+           font-weight: bold;
+           color: #f06e28;
+           margin: 0px;
+       }
+
+       h3.title-item-blog {
+           padding-top: 0px;
+           margin-top: 0px;
+       }
+
+       .btn-expand {
+           padding: 20px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .btn.btn-ex {
+           background-color: #f06e28;
+           color: white;
+           font-size: 16px;
+           padding: 10px 20px 10px 20px;
+       }
+
+       .footer-start {
+           height: 100px;
+           background-color: #f7f3f3;
+       }
+
+       .footer-end {
+           height: 100px;
+           background-color: #000000;
+           color: #ffff;
        }

@@ -38,5 +38,72 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <div class="title-blog">
+        <h4>BÀI VIẾT NỔI BẬT</h4>
+      </div>
+      <div class="blog">
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="img-blog-hot">
+                    <img src="../img/4.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+            <div class="col-sm-6 item-blog">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-4">
+                        <div class="img-blog-hot">
+                            <img src="../img/item1.png" alt="" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-xs-8">
+                        <h3 class="title-item-blog">
+                            GIỚI THIỆU BẠN BÈ SỬ DỤNG INTERNET, TRUYỀN HÌNH FPT NHẬN QUÀ LAPTOP ‘SIÊU MỎNG’
+                        </h3>
+                        <span>
+                            <i style="font-size:16px" class="fa">&#xf073;</i> 01/01/2021
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 item-blog">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-4">
+                        <div class="img-blog-hot">
+                            <img src="../img/item1.png" alt="" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-xs-8">
+                        <h3 class="title-item-blog">
+                            GIỚI THIỆU BẠN BÈ SỬ DỤNG INTERNET, TRUYỀN HÌNH FPT NHẬN QUÀ LAPTOP ‘SIÊU MỎNG’
+                        </h3>
+                        <span>
+                            <i style="font-size:16px" class="fa">&#xf073;</i> 01/01/2021
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 item-blog">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-4">
+                        <div class="img-blog-hot">
+                            <img src="../img/item1.png" alt="" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-xs-8">
+                        <h3 class="title-item-blog">
+                            GIỚI THIỆU BẠN BÈ SỬ DỤNG INTERNET, TRUYỀN HÌNH FPT NHẬN QUÀ LAPTOP ‘SIÊU MỎNG’
+                        </h3>
+                        <span>
+                            <i style="font-size:16px" class="fa">&#xf073;</i> 01/01/2021
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-expand">
+            <br>
+            <button type="button" class="btn btn-ex">Xem Thêm</button>
+        </div>
+      </div>
 @stop
 

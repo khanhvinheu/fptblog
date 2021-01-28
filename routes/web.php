@@ -14,7 +14,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('home');
-// });
+Route::get('/add', function () {
+    return view('post_blog');
+});
 Route::get('/',[HomeController::class, 'index']);

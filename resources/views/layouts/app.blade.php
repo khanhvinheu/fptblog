@@ -46,12 +46,24 @@
         <div class="container content">
             @yield('content')
         </div>
-        {{-- <div class="footer">
-            <div class="row footer-start">
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row footer-start center">
+                    <div class="col-sm-3 col-xs-12 center">
+                        <span class="title-footer">Chính sách Bảo mật</span>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 center">
+                        <span class="title-footer">Điều khoản Sử dụng Website </span>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 center">
+                        <span class="title-footer">Chính sách Thanh toán </span>
+                    </div>
+                </div>
+                <div class="row footer-end center">
+                      <img class="navbar-brand" src="../img/logo-fpt.png" alt="" >
+                      <h5> © 2020 FPT Telecom</h5>
+                </div>
             </div>
-            <div class="row footer-end">
-                sdsad
-            </div>
-        </div> --}}
+        </div>
     </body>
 </html>

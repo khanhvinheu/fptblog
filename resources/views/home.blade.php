@@ -49,6 +49,7 @@
                 </div>
             </div>
             <div class="col-sm-6 item-blog">
+                @foreach ($data as $data)
                 <div class="row">
                     <div class="col-sm-4 col-xs-4">
                         <div class="img-blog-hot">
@@ -56,49 +57,21 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-xs-8">
-                        <h3 class="title-item-blog">
+                        {{-- <h3 class="title-item-blog">
                             GIỚI THIỆU BẠN BÈ SỬ DỤNG INTERNET, TRUYỀN HÌNH FPT NHẬN QUÀ LAPTOP ‘SIÊU MỎNG’
+                        </h3> --}}
+                        <h3 class="title-item-blog">
+                            {{$data->title}}
                         </h3>
                         <span>
-                            <i style="font-size:16px" class="fa">&#xf073;</i> 01/01/2021
+                            <i style="font-size:16px" class="fa">&#xf073;</i> {{$data->created_at->format('d/m/Y')}}
                         </span>
                     </div>
                 </div>
+                 @endforeach
             </div>
-            <div class="col-sm-6 item-blog">
-                <div class="row">
-                    <div class="col-sm-4 col-xs-4">
-                        <div class="img-blog-hot">
-                            <img src="../img/item1.png" alt="" style="width: 100%;">
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-xs-8">
-                        <h3 class="title-item-blog">
-                            GIỚI THIỆU BẠN BÈ SỬ DỤNG INTERNET, TRUYỀN HÌNH FPT NHẬN QUÀ LAPTOP ‘SIÊU MỎNG’
-                        </h3>
-                        <span>
-                            <i style="font-size:16px" class="fa">&#xf073;</i> 01/01/2021
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 item-blog">
-                <div class="row">
-                    <div class="col-sm-4 col-xs-4">
-                        <div class="img-blog-hot">
-                            <img src="../img/item1.png" alt="" style="width: 100%;">
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-xs-8">
-                        <h3 class="title-item-blog">
-                            GIỚI THIỆU BẠN BÈ SỬ DỤNG INTERNET, TRUYỀN HÌNH FPT NHẬN QUÀ LAPTOP ‘SIÊU MỎNG’
-                        </h3>
-                        <span>
-                            <i style="font-size:16px" class="fa">&#xf073;</i> 01/01/2021
-                        </span>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
         <div class="btn-expand">
             <br>

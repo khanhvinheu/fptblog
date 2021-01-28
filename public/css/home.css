@@ -48,6 +48,11 @@
            .col-sm-6.item-blog {
                padding-top: 10px;
            }
+           .title-footer {
+               color: #ffff;
+               font-weight: bold;
+               font-size: 10px;
+           }
        }
 
        .navbar-inverse .navbar-nav>li>a {

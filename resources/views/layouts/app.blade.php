@@ -46,12 +46,12 @@
         <div class="container content">
             @yield('content')
         </div>
-        <div class="footer">
+        {{-- <div class="footer">
             <div class="row footer-start">
             </div>
             <div class="row footer-end">
                 sdsad
             </div>
-        </div>
+        </div> --}}
     </body>
 </html>
